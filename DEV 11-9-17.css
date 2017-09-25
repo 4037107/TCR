@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: red;
+    height: 1000px;
+    width: 960px;
+}
+
+.een{
+    background-color: green;
+}
+
+

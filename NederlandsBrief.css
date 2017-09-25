@@ -1,0 +1,49 @@
+header {
+    width: 1530px;
+    height: 90px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+header > h1{
+    color: white;
+}
+
+main{
+    height: 90px;
+    width: 1530px;
+    background: dodgerblue;
+    text-align: center;
+    margin-top: 0px;
+    border: 0;
+}
+
+nav{
+    height: 150px;
+    width: 1530px;
+    background-color: lightskyblue;
+    text-align: center;
+
+}
+
+aside {
+    height: 250px;
+    width: 250px;
+    background-color: dodgerblue;
+    text-align: center;
+
+}
+
+footer {
+    height: 250px;
+    width: 250px;
+    background: blue;
+    text-align: center;
+}
+
+body{
+    background-image: url("http://lava360.com/wp-content/uploads/2014/01/Classic-Background-Images-For-Wordpress-Blogs-22.jpg")
+}
+
+
+
