@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Marijn </title>
+    <link rel="stylesheet" href="Project%201.css" type="text/css">
+</head>
+<body>
+
+<div class="Linkjes1">
+    <nav>
+        <ul>
+            <li><a href="Project%201%20(week%207,8.9).html">Home</a></li>
+            <li><a href="ImageGallery.html">Image-gallery</a></li>
+            <li><a href="Forms.HTML.html">Contact/Formulier</a>
+            <li><a href="CV(project1).html">CV</a>
+            <li><a href="tabel3.html">Tabel</a></li>
+        </ul>
+    </nav>
+</div>
+
+<form id="myform">
+
+    <fieldset>
+        <!-- Personal info -->
+        <input id="firstname" name="firstname" autofocus required type="text" placeholder="Voornaam"/>
+            <br/>
+        <input id="lastname" name="lastname" type="text" required placeholder="Acternaam"/>
+         <br/>
+        <input id="email" name="email" type="email" required placeholder="email@address.com"/>
+    </fieldset>
+
+ <br/>
+
+    <fieldset>
+    <!-- Terms -->
+    <h4>Algemene voorwaarden</h4>
+    <input type="checkbox" name="terms" id="terms"/>
+    <label for="terms">Ik accepteer de voorwaarden</label>
+
+    <br style="clear: both;"/>
+
+    <label for="message">Voer een kort bericht in:</label>
+    <textarea id="message" name="message" rows="6" cols="50"></textarea>
+    <div style="clear: both"></div>
+
+    <input type="submit" name="submit" id="submit" value="Formulier verzenden"/>
+    </fieldset>
+
+</form>
+</body>
+</html>

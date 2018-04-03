@@ -1,0 +1,61 @@
+body {
+    background-color: sandybrown;
+}
+
+.header1 {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:gray;
+    margin-right: 300px;
+    display: inline-block;
+}
+
+section {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:gray;
+}
+
+.header2 {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:gray;
+}
+
+.article {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:gray;
+}
+
+.footer1 {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:gray;
+}
+
+.aside{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:gray;
+}
+
+.nav{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:gray;
+}
+
+.footer2{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color:gray;
+}

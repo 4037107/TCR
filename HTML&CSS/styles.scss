@@ -1,0 +1,35 @@
+@import "";
+
+$kleur: green;
+
+nav{
+  background-color: $kleur;
+  height: 100px;
+  ul{
+    background-color: $kleur;
+    li{
+      background-color: $kleur;
+
+    }
+  }
+}
+
+.test1{
+  height: 100px;
+  width: 100px;
+}
+
+.test2{
+  @extend .test1;
+
+}
+
+.container1{
+  width: 100%;
+  main{
+    width: 600px / 960px * 100%
+  }
+  .aside3{
+    width: 360px / 960px * 100%;
+  }
+}

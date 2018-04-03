@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <!--dit script: gebruikt cookies-->
+    <script src="Lab15Java.js">
+        function checkEmail()
+        {
+            if (/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/.test(document.userform.email.value))
+            {
+                return (true)
+            }
+            else
+            {
+                alert("het e-mailadres is onjuist");
+                return (false)
+            }
+        }
+    </script>
+    <style type="text/css">
+        div {
+            height: 120px;
+            width: 200px;
+            padding: 20px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form onsubmit="maakCookie('user', document.inlog.gebruiker.value,1);
+    maakCookie('password',document.inlog.wachtwoord.value,1);"
+          name="inlog" action="Welkom15.html" method="post">
+        email-adres:
+        <input type="text" size="20" id="gebruiker"/>
+        Wachtwoord:
+        <input type="password" size="20" id="wachtwoord"/>
+        <hr/>
+        <input type="image" src="inloggen.gif" value="submit"/>
+    </form>
+</div>
+
+
+</body>
+</html>

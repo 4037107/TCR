@@ -1,0 +1,69 @@
+header {
+    width: 1530px;
+    height: 90px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+header > h1{
+    color: white;
+}
+
+main{
+    font-family: Impact, Serif;
+    height: 90px;
+    width: 530px;
+    background: rgba(135, 206, 250, 0.85);
+    text-align: center;
+    top:0px;
+    margin-left: 200px;
+    border-radius: 25px;
+
+}
+
+nav{
+    font-family: Impact, Serif;
+    height: 400px;
+    width: 530px;
+    background-color: rgba(135, 206, 250, 0.85);
+    text-align: center;
+    margin-left: 200px;
+    border-radius: 25px;
+
+}
+
+aside {
+    font-family: Impact, Serif;
+    height: 600px;
+    width: 410px;
+    background-color: rgba(135, 206, 250, 0.85);
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    float: right;
+    bottom: 455px;
+    margin-right: 300px;
+    border-radius: 25px;
+
+}
+
+footer {
+    font-family: Impact, Serif;
+    height: 130px;
+    width: 530px;
+    top: 20px;
+    border-radius: 25px;
+    background-color: rgba(135, 206, 250, 0.84);
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-left: 200px ;
+
+}
+
+body{
+    background-image: url("http://hdblackwallpaper.com/wallpaper/2015/04/black-hd-wallpaper-1920x1080-31-hd-wallpaper.jpg")
+}
+
+
+

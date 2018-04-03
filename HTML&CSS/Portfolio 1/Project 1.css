@@ -1,0 +1,252 @@
+body{
+    background-image: url("http://www.bullshift.net/data/images/2013/09/dark-blocks.jpg");
+    width: 1400px;
+}
+
+
+.CV{
+    font-family: "Berlin Sans FB", sans-serif;
+    color: white;
+    top: 50px;
+    position: relative;
+}
+
+
+.DivP{
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    background-color: rgba(221, 0, 34, 0.86);
+    margin-right: 1%;
+    width: 40%;
+    height: 170px;
+    border-radius:25px;
+    margin-left: 450px;
+    top: 100px;
+    position: relative;
+    color: black;
+}
+
+.DivI{
+    font-family: "Berlin Sans FB";
+    text-align: center;
+    background-color: rgba(221, 0, 34, 0.85);
+    margin-right: 1%;
+    width: 40%;
+    height: 170px;
+    border-radius: 25px;
+    margin-left: 450px;
+    top: 100px;
+    position: relative;
+    color: white;
+}
+
+.Linkjes1{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.Linkjes1 > nav{
+    width: 100%;
+}
+
+.Linkjes1 > nav > ul{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.Linkjes1 > nav > ul > li{
+    font-family: "Berlin Sans FB";
+    font-size: larger;
+    list-style: none;
+    margin-right: 3%;
+
+}
+
+.Linkjes1 > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.Linkjes1 > nav > ul > li > a:hover {
+    text-decoration: solid;
+    color: #dd0022;
+}
+
+
+
+
+.My I{
+    font-family: "Berlin Sans FB";
+    font-size: large;
+    text-align: center;
+    color: white;
+    top: 50px;
+    position: relative;
+}
+
+.Images1{
+    height: 800px;
+    width: 1600px;
+    top: 200px;
+    position: relative;
+    margin-right: 300px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.item{
+    width: 200px;
+    height: 190px;
+    border: solid 1px;
+    margin: 50px;
+    position: relative;
+    bottom: 0;
+}
+
+img{
+    width: 230px;
+    height: 200px;
+    position: relative;
+    bottom: 0;
+}
+
+h1{
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+
+
+
+
+{box-sizing: border-box;}
+#myform{
+    width: 700px;
+    height: 0;
+}
+
+#myform fieldset {
+    border: 1px solid #bbb;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#myform label, #myform input, #myform select {
+    display: block;
+}
+
+#myform input, #myform select, #myform textarea{
+    margin-bottom: 20px;
+    padding: 6px;
+    width: 350px;
+}
+
+#terms{
+    float: left;
+    width: auto !important;
+}
+
+input[name="referrer"]{
+    float: left;
+    margin-right:10px;
+    width: auto !important;
+    clear: left;
+}
+
+h4 {
+    clear: left;
+}
+
+input:required:invalid, input:focus:invalid{
+    border: 1px solid red;
+}
+
+input:required:valid, input:focus:valid{
+    border: 1px solid green;
+}
+
+
+
+.Table1 > table > thead > tr > th{
+    border: 3px solid;
+    border-collapse: collapse;
+    font-size: 155%;
+    color: white;
+    font-family: "Berlin Sans FB";
+}
+
+.Table1 > table{
+    margin-left: 15%;
+    margin-top: 17%;
+    width: 50%;
+    position: fixed;
+    border-collapse: collapse;
+}
+
+.Table1 > table > tbody > tr > td{
+    border: 3px solid;
+    border-collapse: collapse;
+    font-size: 155%;
+    color: white;
+    font-family: "Berlin Sans FB";
+    padding-right: 2%;
+    padding-left: 0.5%;
+}
+
+.Table1 > table > tbody > tr > td > a{
+    color: white;
+    text-decoration: none;
+}
+
+.Table1 > table > tbody > tr > td:hover,
+.Table1 > table > tbody > tr > td:focus{
+    padding-right: 1.4%;
+    font-weight: bold;
+}
+
+.Table2 > table > thead > tr > th{
+    border: 3px solid;
+    border-collapse: collapse;
+    font-size: 155%;
+    color: white;
+    font-family: "Berlin Sans FB", serif;
+}
+
+.Table2 > table{
+    margin-left: 15%;
+    margin-top:26%;
+    width: 50%;
+    position: fixed;
+    border-collapse: collapse;
+}
+
+.Table2 > table > tbody > tr > td{
+    border: 3px solid;
+    border-collapse: collapse;
+    font-size: 155%;
+    color: white;
+    font-family: "Berlin Sans FB", serif;
+    padding-right: 2%;
+    padding-left: 0.5%;
+}
+
+.Table2 > table > tbody > tr > td > a{
+    color: white;
+    text-decoration: none;
+}
+
+.Table2 > table > tbody > tr > td:hover,
+.Table2 > table > tbody > tr > td:focus{
+    padding-right: 1.4%;
+    font-weight: bold;
+}
+

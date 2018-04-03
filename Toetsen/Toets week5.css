@@ -1,0 +1,53 @@
+header{
+    background-color: green;
+    height: 40px;
+    width: 960px;
+    margin-left: 200px;
+    position: relative;
+    top: 0px;
+}
+
+li {
+    display: inline;
+    padding-right: 0px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+main{
+    height: 230px;
+    width: 370px;
+    background-color: red;
+    text-align: center;
+    margin-left: 200px;
+    bottom: 20px;
+    position: relative;
+}
+
+.logo{
+    height: 230px;
+    width: 270px;
+    background-color: grey;
+    margin-left: 570px;
+    bottom: 250px;
+    position: relative;
+}
+
+aside{
+    height: 230px;
+    width: 330px;
+    background-color: #1254ff;
+    text-align: center;
+    margin-left: 830px;
+    position: relative;
+    bottom:  500px;
+}
+
+footer{
+    width: 960px;
+    height: 40px;
+    background-color: crimson;
+    position: relative;
+    bottom: 530px;
+    margin-left: 200px;
+}

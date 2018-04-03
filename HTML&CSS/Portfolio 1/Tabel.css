@@ -1,0 +1,64 @@
+/*table, th, td, caption{*/
+    /*width: 550px;*/
+    /*border: 1px solid;*/
+    /*border-collapse: collapse;*/
+    /*margin-left: 440px;*/
+/*}*/
+
+/*caption{*/
+    /*border: 1px solid;*/
+    /*border-collapse: collapse;*/
+    /*margin-left: 0px;*/
+/*}*/
+
+/*.col1{*/
+    /*background-color: red;*/
+    /*margin-left: 100px;*/
+/*}*/
+
+/*.col2{*/
+    /*background-color: orange;*/
+/*}*/
+
+/*.col3{*/
+    /*background-color: blue;*/
+/*}*/
+
+header{
+    text-align: center;
+    font-family: "Century Gothic";
+}
+
+table,th,td,caption{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-family: "Century Gothic";
+}
+
+.een{
+    background-color: Red;
+}
+
+.twee{
+    background-color: green;
+}
+.drie{
+    background-color: blue;
+}
+
+.vier{
+    background-color: aquamarine;
+}
+
+.vijf{
+    background-color: #183333;
+    color: white;
+}
+
+.zes{
+    background-color: white;
+}
+
+
